@@ -22,7 +22,7 @@ function theme_setup(){
 add_action('after_setup_theme','theme_setup');
 add_theme_support('post-thumbnails');
 function my_excerpt_length($length){
-	return 150;
+	return 100;
 	}
 	add_filter('excerpt_length', 'my_excerpt_length');
 ?>
