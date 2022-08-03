@@ -8,7 +8,7 @@ get_header(); ?>
                 <h1 class="titulo"><?php the_title(); ?></h1>
             </div>         
             <div class="col text-center imagen">
-                <img src="<?php the_post_thumbnail_url("large"); ?>" width="800px">
+                <img src="<?php the_post_thumbnail_url(); ?>" width="800px">
             </div>   
             <div>
                 <p class="texto"><?php the_content(); ?></p>

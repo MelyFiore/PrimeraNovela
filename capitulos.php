@@ -4,7 +4,6 @@ get_header(); ?>
     
     <?php $articulos = new WP_Query([
 			'showposts' => 5,
-			'post_type' => 'noticias',
             "paged"=>get_query_var("paged")
 			]);	
 	while ($articulos->have_posts()) {

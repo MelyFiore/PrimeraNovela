@@ -3,8 +3,8 @@ add_action("init", "codigo_inicial");
 
 function codigo_inicial() {
 
-	register_post_type("noticias", [
-	"label" => "Noticias",
+	register_post_type("capitulos", [
+	"label" => "Capitulos",
 	"public" => true,
     "supports" => ["title", "editor", "comments", "author", "thumbnail"]
 	]);
@@ -21,4 +21,8 @@ function theme_setup(){
 }
 add_action('after_setup_theme','theme_setup');
 add_theme_support('post-thumbnails');
+function my_excerpt_length($length){
+	return 150;
+	}
+	add_filter('excerpt_length', 'my_excerpt_length');
 ?>

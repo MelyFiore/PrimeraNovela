@@ -50,6 +50,7 @@
 .detalles p {
 	padding-left: 30px;
 	padding-right: 30px;
+	text-align: justify;
 }
 
 .logo {
@@ -75,12 +76,16 @@
 	text-align: center;
 }
 
-.sinopsis h2, .contenido h3 {
+.sinopsis h2, .capitulos h3 {
 	text-transform: uppercase;
 	text-align: left;
 }
 
 .resumen, .texto {
+	text-align: justify;
+}
+
+.col-sm-8 p {
 	text-align: justify;
 }
 
@@ -162,18 +167,6 @@
 	background: #7E7D7D;
 	padding: 15px;
 	font-size: 14px;
-}
-
-.table {
-	border: solid 2px;
-}
-
-#pricing td {
-    vertical-align: middle;
-}
-
-.descripcion td {
-	text-align: left;
 }
 
 h1 {

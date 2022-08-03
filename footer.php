@@ -33,5 +33,6 @@
 			Desarrollado con <i class="fa fa-heart"> por Melitza Aquino</i>
 		</div>	
 	</footer>    
+	<?php wp_footer(); ?>
 </body>
 </html>
